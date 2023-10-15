@@ -1,0 +1,28 @@
+sum of odd and even
+
+class Math {
+    private int a;
+    private int b;
+
+    void add() {
+        System.out.println(a + b);
+    }
+}
+
+class Multiply extends Math {
+    void mul() {
+        System.out.println(a * b);
+    }
+}
+
+public class Maths {
+    public static void main(String args[]) {
+        Multiply s = new Multiply();
+        s.a = 5; // Set the values of 'a' and 'b' for the Multiply class
+        s.b = 7;
+        s.add();
+        s.mul();
+    }
+}
+
+output:
